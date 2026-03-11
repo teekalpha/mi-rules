@@ -1,0 +1,46 @@
+# AI Services（核心产品）
+# Gemini → 已由 Google.list 覆盖
+
+# ===========================================================
+# OpenAI / ChatGPT
+# ===========================================================
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,sora.com
+DOMAIN-SUFFIX,openaicom.imgix.net
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,production-openaicom-storage.azureedge.net
+DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net
+DOMAIN-SUFFIX,arkoselabs.com
+DOMAIN-SUFFIX,statsig.com
+DOMAIN-SUFFIX,statsigapi.net
+DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,prodregistryv2.org
+DOMAIN-SUFFIX,featureassets.org
+DOMAIN-SUFFIX,workos.com
+
+# ===========================================================
+# Anthropic / Claude
+# ===========================================================
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claudeusercontent.com
+
+# ===========================================================
+# Grok / xAI
+# ===========================================================
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.com
+
+# ===========================================================
+# Manus
+# ===========================================================
+DOMAIN-SUFFIX,manus.im
+
+# ===========================================================
+# Cursor
+# ===========================================================
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,cursor.com

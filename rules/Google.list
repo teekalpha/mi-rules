@@ -1,0 +1,40 @@
+# Google Services
+
+# ===========================================================
+# Google 核心
+# ===========================================================
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,googlefonts.com
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,chromium.org
+DOMAIN-SUFFIX,gvt1.com
+DOMAIN-SUFFIX,gvt2.com
+
+# Google 短链 / 其他 TLD
+DOMAIN-SUFFIX,goo.gle
+DOMAIN-SUFFIX,goo.gl
+DOMAIN-SUFFIX,google.co.jp
+DOMAIN-SUFFIX,antigravity-unleash.goog
+DOMAIN-KEYWORD,goog
+
+# ===========================================================
+# YouTube
+# ===========================================================
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,youtube-nocookie.com
+DOMAIN-SUFFIX,youtubei.googleapis.com
+
+# ===========================================================
+# Process Names（Clash Meta 支持）
+# ===========================================================
+PROCESS-NAME,Antigravity Helper
+PROCESS-NAME,language_server_macos_arm

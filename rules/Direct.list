@@ -1,0 +1,147 @@
+# Direct Access
+
+# ===========================================================
+# 私有 / 本地网络（最高优先级）
+# ===========================================================
+IP-CIDR,127.0.0.0/8,no-resolve
+IP-CIDR,10.0.0.0/8,no-resolve
+IP-CIDR,172.16.0.0/12,no-resolve
+IP-CIDR,192.168.0.0/16,no-resolve
+IP-CIDR,198.18.0.0/16,no-resolve
+DOMAIN-SUFFIX,local
+DOMAIN-SUFFIX,orb.local
+
+# BT / 种子（避免走代理）
+DOMAIN-KEYWORD,torrent
+DOMAIN-KEYWORD,tracker
+
+# ===========================================================
+# 特殊直连
+# ===========================================================
+DOMAIN-SUFFIX,95516.com
+DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,12306.cn
+
+# Cloudflare ASN 直连（Clash Meta 支持）
+IP-ASN,13335,no-resolve
+
+# ===========================================================
+# 阿里系
+# ===========================================================
+DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,tmall.com
+DOMAIN-SUFFIX,alibaba.com
+DOMAIN-SUFFIX,aliyun.com
+DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,antgroup.com
+DOMAIN-SUFFIX,youku.com
+DOMAIN-SUFFIX,amap.com
+DOMAIN-SUFFIX,dingtalk.com
+
+# ===========================================================
+# 腾讯系
+# ===========================================================
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,weixin.com
+DOMAIN-SUFFIX,wechat.com
+DOMAIN-SUFFIX,tencent.com
+DOMAIN-SUFFIX,tencentcloud.com
+DOMAIN-SUFFIX,qcloud.com
+DOMAIN-SUFFIX,qpic.cn
+DOMAIN-SUFFIX,qlogo.cn
+DOMAIN-SUFFIX,gtimg.com
+
+# ===========================================================
+# 百度系
+# ===========================================================
+DOMAIN-SUFFIX,baidu.com
+DOMAIN-SUFFIX,bdimg.com
+DOMAIN-SUFFIX,bdstatic.com
+DOMAIN-SUFFIX,baiducontent.com
+DOMAIN-SUFFIX,bcebos.com
+
+# ===========================================================
+# 字节跳动（国内）
+# ===========================================================
+DOMAIN-SUFFIX,bytedance.com
+DOMAIN-SUFFIX,douyin.com
+DOMAIN-SUFFIX,toutiao.com
+DOMAIN-SUFFIX,ixigua.com
+DOMAIN-SUFFIX,feishu.cn
+DOMAIN-SUFFIX,larkoffice.com
+DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,pstatp.com
+
+# ===========================================================
+# 京东
+# ===========================================================
+DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,jdcloud.com
+DOMAIN-SUFFIX,360buyimg.com
+
+# ===========================================================
+# 网易
+# ===========================================================
+DOMAIN-SUFFIX,163.com
+DOMAIN-SUFFIX,126.com
+DOMAIN-SUFFIX,yeah.net
+DOMAIN-SUFFIX,netease.com
+
+# ===========================================================
+# B 站
+# ===========================================================
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,bilivideo.com
+DOMAIN-SUFFIX,bilivideo.cn
+DOMAIN-SUFFIX,hdslb.com
+
+# ===========================================================
+# 视频平台
+# ===========================================================
+DOMAIN-SUFFIX,iqiyi.com
+DOMAIN-SUFFIX,qiyi.com
+DOMAIN-SUFFIX,mgtv.com
+DOMAIN-SUFFIX,le.com
+
+# ===========================================================
+# 社交
+# ===========================================================
+DOMAIN-SUFFIX,weibo.com
+DOMAIN-SUFFIX,weibo.cn
+DOMAIN-SUFFIX,sinaimg.cn
+DOMAIN-SUFFIX,sina.com.cn
+DOMAIN-SUFFIX,zhihu.com
+DOMAIN-SUFFIX,xiaohongshu.com
+DOMAIN-SUFFIX,xhscdn.com
+
+# ===========================================================
+# 开发者
+# ===========================================================
+DOMAIN-SUFFIX,csdn.net
+DOMAIN-SUFFIX,gitee.com
+DOMAIN-SUFFIX,cnpmjs.org
+
+# ===========================================================
+# 云服务 / CDN
+# ===========================================================
+DOMAIN-SUFFIX,qiniucdn.com
+DOMAIN-SUFFIX,qiniudn.com
+DOMAIN-SUFFIX,upyun.com
+DOMAIN-SUFFIX,upaiyun.com
+DOMAIN-SUFFIX,wscdns.com
+
+# ===========================================================
+# 国内 DNS
+# ===========================================================
+IP-CIDR,114.114.114.114/32,no-resolve
+IP-CIDR,114.114.115.115/32,no-resolve
+IP-CIDR,223.5.5.5/32,no-resolve
+IP-CIDR,223.6.6.6/32,no-resolve
+IP-CIDR,119.29.29.29/32,no-resolve
+IP-CIDR,180.76.76.76/32,no-resolve
+
+# ===========================================================
+# 顶级域名兜底
+# ===========================================================
+DOMAIN-SUFFIX,cn
