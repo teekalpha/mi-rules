@@ -29,6 +29,8 @@ DOMAIN-SUFFIX,discord.com
 DOMAIN-SUFFIX,discord.gg
 DOMAIN-SUFFIX,discordapp.com
 DOMAIN-SUFFIX,discordapp.net
+DOMAIN-SUFFIX,discord.media
+DOMAIN-SUFFIX,discordcdn.com
 DOMAIN-SUFFIX,whatsapp.com
 DOMAIN-SUFFIX,whatsapp.net
 DOMAIN-SUFFIX,signal.org
@@ -101,23 +103,6 @@ DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-SUFFIX,apple-cloudkit.com
-
-# ===========================================================
-# 微软服务
-# ===========================================================
-DOMAIN-SUFFIX,microsoft.com
-DOMAIN-SUFFIX,microsoftonline.com
-DOMAIN-SUFFIX,office.com
-DOMAIN-SUFFIX,office365.com
-DOMAIN-SUFFIX,onedrive.com
-DOMAIN-SUFFIX,sharepoint.com
-DOMAIN-SUFFIX,live.com
-DOMAIN-SUFFIX,outlook.com
-DOMAIN-SUFFIX,skype.com
-DOMAIN-SUFFIX,teams.microsoft.com
-DOMAIN-SUFFIX,azure.com
-DOMAIN-SUFFIX,msftconnecttest.com
-DOMAIN-SUFFIX,msauthimages.net
 
 # ===========================================================
 # 其他常用
