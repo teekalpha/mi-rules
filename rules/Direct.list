@@ -142,24 +142,8 @@ IP-CIDR,119.29.29.29/32,no-resolve
 IP-CIDR,180.76.76.76/32,no-resolve
 
 # ===========================================================
-# 微软服务
-# ===========================================================
-DOMAIN-SUFFIX,microsoft.com
-DOMAIN-SUFFIX,microsoftonline.com
-DOMAIN-SUFFIX,office.com
-DOMAIN-SUFFIX,office365.com
-DOMAIN-SUFFIX,onedrive.com
-DOMAIN-SUFFIX,sharepoint.com
-DOMAIN-SUFFIX,live.com
-DOMAIN-SUFFIX,outlook.com
-DOMAIN-SUFFIX,skype.com
-DOMAIN-SUFFIX,teams.microsoft.com
-DOMAIN-SUFFIX,azure.com
-DOMAIN-SUFFIX,msftconnecttest.com
-DOMAIN-SUFFIX,msauthimages.net
-
-# ===========================================================
 # 顶级域名兜底
 # ===========================================================
 DOMAIN-SUFFIX,cn
+
 
