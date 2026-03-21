@@ -53,6 +53,9 @@ DOMAIN-SUFFIX,debian.org
 DOMAIN-SUFFIX,vercel.com
 DOMAIN-SUFFIX,brew.sh
 DOMAIN-SUFFIX,astro.build
+DOMAIN-SUFFIX,v2ex.com
+DOMAIN-SUFFIX,linux.do
+DOMAIN-SUFFIX,byteplus.com
 DOMAIN,wiki.metacubex.one
 DOMAIN,playwright.azureedge.net
 
@@ -101,6 +104,7 @@ DOMAIN-SUFFIX,bloomberg.com
 # ===========================================================
 DOMAIN-SUFFIX,amazon.com
 DOMAIN-SUFFIX,duckduckgo.com
+DOMAIN-SUFFIX,brave.com
 DOMAIN-SUFFIX,medium.com
 DOMAIN-SUFFIX,quora.com
 DOMAIN-SUFFIX,stackoverflow.com
