@@ -53,11 +53,19 @@ DOMAIN-SUFFIX,debian.org
 DOMAIN-SUFFIX,vercel.com
 DOMAIN-SUFFIX,brew.sh
 DOMAIN-SUFFIX,astro.build
-DOMAIN-SUFFIX,v2ex.com
-DOMAIN-SUFFIX,linux.do
-DOMAIN-SUFFIX,byteplus.com
 DOMAIN,wiki.metacubex.one
 DOMAIN,playwright.azureedge.net
+
+# ===========================================================
+# 平台与云服务 / AI平台
+# ===========================================================
+DOMAIN-SUFFIX,byteplus.com
+
+# ===========================================================
+# 论坛 / 社区
+# ===========================================================
+DOMAIN-SUFFIX,v2ex.com
+DOMAIN-SUFFIX,linux.do
 
 # ===========================================================
 # 效率工具
