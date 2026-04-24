@@ -21,6 +21,17 @@ DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,prodregistryv2.org
 DOMAIN-SUFFIX,featureassets.org
 DOMAIN-SUFFIX,workos.com
+# 移动端及 API 增强
+DOMAIN,ios.chat.openai.com
+DOMAIN,android.chat.openai.com
+DOMAIN,tcr9i.chat.openai.com
+DOMAIN,api.openai.com
+DOMAIN-SUFFIX,chat.openai.com
+DOMAIN-SUFFIX,search.chatgpt.com
+# 验证与辅助
+DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,auth0.openai.com
+DOMAIN,openai-api.arkoselabs.com
 
 # ===========================================================
 # Anthropic / Claude
@@ -30,6 +41,8 @@ DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,anthropic.ai
+DOMAIN-SUFFIX,claude.code
+DOMAIN-SUFFIX,servd-anthropic-website.b-cdn.net
 DOMAIN,cdn.usefathom.com
 IP-CIDR,160.79.104.0/23,no-resolve
 IP-CIDR,209.249.57.0/24,no-resolve
@@ -40,6 +53,8 @@ IP-CIDR6,2607:6bc0::/32,no-resolve
 # ===========================================================
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,xai.com
+DOMAIN-SUFFIX,api.x.ai
 
 # ===========================================================
 # Manus
@@ -53,5 +68,3 @@ DOMAIN-SUFFIX,manus.ai
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,cursor.ai
-
-
