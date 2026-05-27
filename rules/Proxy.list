@@ -73,6 +73,7 @@ DOMAIN-SUFFIX,linux.do
 # ===========================================================
 # 代理 / VPS 服务
 DOMAIN-SUFFIX,bandwagonhost.com
+DOMAIN-SUFFIX,dmit.io
 DOMAIN-SUFFIX,justmysocks.net
 
 # 其他工具
