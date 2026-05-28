@@ -19,7 +19,6 @@ DOMAIN-KEYWORD,tracker
 # 特殊直连
 # ===========================================================
 DOMAIN-SUFFIX,95516.com
-DOMAIN-SUFFIX,paypal.com
 DOMAIN-SUFFIX,12306.cn
 
 # Cloudflare ASN 直连（Clash Meta 支持）
