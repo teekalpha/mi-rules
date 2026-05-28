@@ -64,11 +64,6 @@ DOMAIN-SUFFIX,linux.do
 # ===========================================================
 # 效率工具
 # ===========================================================
-# 代理 / VPS 服务
-DOMAIN-SUFFIX,bandwagonhost.com
-DOMAIN-SUFFIX,dmit.io
-DOMAIN-SUFFIX,justmysocks.net
-
 # 其他工具
 DOMAIN-SUFFIX,notion.so
 DOMAIN-SUFFIX,notion.com

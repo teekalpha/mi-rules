@@ -14,3 +14,22 @@ DOMAIN-SUFFIX,redd.it
 DOMAIN-SUFFIX,redditmedia.com
 DOMAIN-SUFFIX,reddituploads.com
 DOMAIN-SUFFIX,redditstatic.com
+
+# ===========================================================
+# 跨国金融与支付 (高风控防欺诈)
+# ===========================================================
+DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,paypalobjects.com
+DOMAIN-SUFFIX,stripe.com
+
+# ===========================================================
+# VPS / 代理云服务 (反欺诈下单)
+# ===========================================================
+DOMAIN-SUFFIX,bandwagonhost.com
+DOMAIN-SUFFIX,dmit.io
+DOMAIN-SUFFIX,justmysocks.net
+
+# ===========================================================
+# 跨国电商与旅行 (防地址及关联风控)
+# ===========================================================
+DOMAIN-SUFFIX,airbnb.com

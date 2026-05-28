@@ -24,7 +24,7 @@
   - `Google.list`: Google 核心服务与 YouTube 系媒体
   - `Microsoft.list`: 微软核心服务 (Office, OneDrive, Azure, Teams 等)
   - `Media.list`: 国际主流流媒体 (Netflix, Disney+, Spotify 等)
-  - `HomeProxy.list`: 家宽专用服务 (WhatsApp, Reddit 等对原生 IP 或网络环境要求极高的服务)
+  - `HomeProxy.list`: 家宽专用服务 (WhatsApp, Reddit, 以及 PayPal、Stripe、风控主机商等高防欺诈要求平台)
   - `Proxy.list`: 综合性墙外服务 (社交、效率工具、新闻、开发者服务以及长尾 AI 工具)
   - `Direct.list`: 国内互联网服务 (阿里/腾讯/百度等)、私有网络及特殊白名单
 
