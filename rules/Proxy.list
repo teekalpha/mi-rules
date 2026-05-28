@@ -11,11 +11,6 @@ DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,t.co
 DOMAIN-SUFFIX,threads.com
-DOMAIN-SUFFIX,reddit.com
-DOMAIN-SUFFIX,redd.it
-DOMAIN-SUFFIX,redditmedia.com
-DOMAIN-SUFFIX,reddituploads.com
-DOMAIN-SUFFIX,redditstatic.com
 DOMAIN-SUFFIX,linkedin.com
 DOMAIN-SUFFIX,licdn.com
 DOMAIN-SUFFIX,pinterest.com
@@ -32,8 +27,6 @@ DOMAIN-SUFFIX,discordapp.com
 DOMAIN-SUFFIX,discordapp.net
 DOMAIN-SUFFIX,discord.media
 DOMAIN-SUFFIX,discordcdn.com
-DOMAIN-SUFFIX,whatsapp.com
-DOMAIN-SUFFIX,whatsapp.net
 DOMAIN-SUFFIX,signal.org
 
 # ===========================================================
