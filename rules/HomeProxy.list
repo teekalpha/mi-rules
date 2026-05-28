@@ -3,17 +3,24 @@
 # ===========================================================
 # WhatsApp
 # ===========================================================
+DOMAIN,graph.facebook.com
+DOMAIN-SUFFIX,wa.me
+DOMAIN-SUFFIX,whatsapp.biz
 DOMAIN-SUFFIX,whatsapp.com
 DOMAIN-SUFFIX,whatsapp.net
+DOMAIN-KEYWORD,whatsapp
 
 # ===========================================================
 # Reddit
 # ===========================================================
 DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,redd.it
+DOMAIN-SUFFIX,redditmail.com
 DOMAIN-SUFFIX,redditmedia.com
-DOMAIN-SUFFIX,reddituploads.com
 DOMAIN-SUFFIX,redditstatic.com
+DOMAIN-SUFFIX,reddituploads.com
+DOMAIN-SUFFIX,reddituploads.com.cdn-cf.behance.net
+DOMAIN-SUFFIX,reddituploads.com.cdn-cf.dropbox.com
 
 # ===========================================================
 # 跨国金融与支付 (高风控防欺诈)
