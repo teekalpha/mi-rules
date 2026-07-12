@@ -70,6 +70,7 @@ DOMAIN-SUFFIX,linux.do
 # 其他工具
 DOMAIN-SUFFIX,notion.so
 DOMAIN-SUFFIX,notion.com
+DOMAIN-SUFFIX,excalidraw.com
 DOMAIN-SUFFIX,canva.com
 DOMAIN-SUFFIX,airtable.com
 DOMAIN-SUFFIX,teable.ai
@@ -135,3 +136,14 @@ DOMAIN-SUFFIX,invideo.io
 DOMAIN-SUFFIX,elevenlabs.io
 DOMAIN-SUFFIX,seaart.ai
 DOMAIN-SUFFIX,lovart.ai
+
+# ===========================================================
+# 软件下载 / 应用商店
+# ===========================================================
+DOMAIN-SUFFIX,apkmirror.com
+DOMAIN-SUFFIX,uptodown.com
+
+# ===========================================================
+# 网络工具与服务
+# ===========================================================
+DOMAIN-SUFFIX,lanhai.in

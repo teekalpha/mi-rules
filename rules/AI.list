@@ -33,6 +33,8 @@ DOMAIN-SUFFIX,search.chatgpt.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN-SUFFIX,auth0.openai.com
 DOMAIN,openai-api.arkoselabs.com
+# OpenAI 专属 Sentry 遥测，防 IP 穿帮关联
+DOMAIN,o33249.ingest.us.sentry.io
 
 # ===========================================================
 # Anthropic / Claude
