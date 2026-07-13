@@ -1,0 +1,73 @@
+# Meeting & Live Stream
+# 🚀 在线会议与直播服务规则集
+
+# ===========================================================
+# Zoom (进程、域名、关键字及核心 IP 段)
+# ===========================================================
+PROCESS-NAME,zoom.us
+PROCESS-NAME,Zoom.exe
+DOMAIN-KEYWORD,zoom
+DOMAIN-SUFFIX,zoom.us
+DOMAIN-SUFFIX,zoom.com
+DOMAIN-SUFFIX,zoomgov.com
+DOMAIN-SUFFIX,zoomus.cn
+DOMAIN-SUFFIX,zoom.com.cn
+IP-CIDR,69.174.57.0/24,no-resolve
+IP-CIDR,147.124.96.0/19,no-resolve
+IP-CIDR,207.226.132.0/24,no-resolve
+
+# ===========================================================
+# Google Meet / Hangouts
+# ===========================================================
+DOMAIN,meet.google.com
+DOMAIN,hangouts.google.com
+DOMAIN-SUFFIX,google-me.com
+
+# ===========================================================
+# Microsoft Teams & Skype
+# ===========================================================
+DOMAIN,teams.microsoft.com
+DOMAIN,teams.live.com
+DOMAIN,teams.office.com
+DOMAIN,teams.office.net
+DOMAIN-SUFFIX,skype.com
+DOMAIN-SUFFIX,skypeassets.com
+DOMAIN-SUFFIX,microsoftteams.com
+
+# ===========================================================
+# Webex (Cisco)
+# ===========================================================
+DOMAIN-SUFFIX,webex.com
+DOMAIN-SUFFIX,ciscowebex.com
+
+# ===========================================================
+# Slack
+# ===========================================================
+DOMAIN-SUFFIX,slack.com
+DOMAIN-SUFFIX,slack-edge.com
+DOMAIN-SUFFIX,slack-msgs.com
+DOMAIN-SUFFIX,slack-files.com
+DOMAIN-SUFFIX,slack-redir.net
+
+# ===========================================================
+# Discord
+# ===========================================================
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discordapp.net
+DOMAIN-SUFFIX,discord.media
+DOMAIN-SUFFIX,discordcdn.com
+
+# ===========================================================
+# Twitch (Live Stream)
+# ===========================================================
+DOMAIN-SUFFIX,twitch.tv
+DOMAIN-SUFFIX,twitchapps.com
+DOMAIN-SUFFIX,ttvnw.net
+DOMAIN-SUFFIX,jtvnw.net
+
+# ===========================================================
+# Tencent Meeting / VooV Meeting (腾讯会议海外版)
+# ===========================================================
+DOMAIN-SUFFIX,voovmeeting.com

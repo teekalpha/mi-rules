@@ -22,10 +22,10 @@ DOMAIN-SUFFIX,spotify.com
 DOMAIN-SUFFIX,spotifycdn.com
 DOMAIN-SUFFIX,scdn.co
 
-# Twitch
-DOMAIN-SUFFIX,twitch.tv
-DOMAIN-SUFFIX,jtvnw.net
-DOMAIN-SUFFIX,twitchapps.com
+# Twitch (已移至 Meeting.list)
+# DOMAIN-SUFFIX,twitch.tv
+# DOMAIN-SUFFIX,jtvnw.net
+# DOMAIN-SUFFIX,twitchapps.com
 
 # HBO / Max
 DOMAIN-SUFFIX,hbo.com

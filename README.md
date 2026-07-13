@@ -4,25 +4,27 @@
 
 ## 📍 策略组架构
 
-默认生成的客户端配置（如 Clash）包含以下 8 个策略组，满足精细化路由需求：
+默认生成的客户端配置（如 Clash）包含以下 10 个策略组，满足精细化路由需求：
 
 1. **🚀 代理节点**（基础节点池，包含所有可用节点）
 2. **🏠 家宽节点**（手动指定用于对原生 IP 要求极高的节点）
 3. **🎵 TikTok**（默认：`🏠 家宽节点`，备用：代理节点/直连）
 4. **🤖 AI 服务**（默认：`🏠 家宽节点`，备用：代理节点/直连）
-5. **🔍 Google**（默认：`🚀 代理节点`，备用：家宽节点/直连）
-6. **Ⓜ️ 微软服务**（默认：`DIRECT`，备用：代理节点/家宽节点）
-7. **🇺🇳 国外网站**（默认：`🚀 代理节点`，备用：家宽节点/直连）
-8. **🇨🇳 国内网站**（默认：`DIRECT`，备用：代理节点/家宽节点）
-9. **🐟 规则之外**（默认：`DIRECT`，备用：代理节点/家宽节点）
+5. **🎙️ 会议直播**（默认：`🚀 代理节点`，备用：直连/家宽节点）
+6. **🔍 Google**（默认：`🚀 代理节点`，备用：家宽节点/直连）
+7. **Ⓜ️ 微软服务**（默认：`DIRECT`，备用：代理节点/家宽节点）
+8. **🇺🇳 国外网站**（默认：`🚀 代理节点`，备用：家宽节点/直连）
+9. **🇨🇳 国内网站**（默认：`DIRECT`，备用：代理节点/家宽节点）
+10. **🐟 规则之外**（默认：`DIRECT`，备用：代理节点/家宽节点）
 
 ## 📁 目录及规则说明
 
 - **/rules**：分类规则集 (.list)
   - `AI.list`: 核心 AI 基础设施 (OpenAI, Claude, Grok, Manus, Cursor 等)
   - `TikTok.list`: 字节跳动海外及全系短视频平台 CDN
+  - `Meeting.list`: 在线视频会议与直播服务 (Zoom, Google Meet, Teams, Discord, Slack, Twitch, VooV 等)
   - `Google.list`: Google 核心服务与 YouTube 系媒体
-  - `Microsoft.list`: 微软核心服务 (Office, OneDrive, Azure, Teams 等)
+  - `Microsoft.list`: 微软核心服务 (Office, OneDrive, Azure 等)
   - `Media.list`: 国际主流流媒体 (Netflix, Disney+, Spotify 等)
   - `HomeProxy.list`: 家宽专用服务 (WhatsApp, Reddit, 以及 PayPal、Stripe、风控主机商等高防欺诈要求平台)
   - `Proxy.list`: 综合性墙外服务 (社交、效率工具、新闻、开发者服务以及长尾 AI 工具)

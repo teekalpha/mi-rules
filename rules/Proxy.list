@@ -21,12 +21,13 @@ DOMAIN-SUFFIX,pinterest.com
 DOMAIN-SUFFIX,telegram.org
 DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,telesco.pe
-DOMAIN-SUFFIX,discord.com
-DOMAIN-SUFFIX,discord.gg
-DOMAIN-SUFFIX,discordapp.com
-DOMAIN-SUFFIX,discordapp.net
-DOMAIN-SUFFIX,discord.media
-DOMAIN-SUFFIX,discordcdn.com
+# 以下已移至 Meeting.list
+# DOMAIN-SUFFIX,discord.com
+# DOMAIN-SUFFIX,discord.gg
+# DOMAIN-SUFFIX,discordapp.com
+# DOMAIN-SUFFIX,discordapp.net
+# DOMAIN-SUFFIX,discord.media
+# DOMAIN-SUFFIX,discordcdn.com
 DOMAIN-SUFFIX,signal.org
 
 # ===========================================================
@@ -76,10 +77,11 @@ DOMAIN-SUFFIX,airtable.com
 DOMAIN-SUFFIX,teable.ai
 DOMAIN-SUFFIX,dropbox.com
 DOMAIN-SUFFIX,dropboxstatic.com
-DOMAIN-SUFFIX,slack.com
-DOMAIN-SUFFIX,slack-edge.com
-DOMAIN-SUFFIX,zoom.us
-DOMAIN-SUFFIX,zoomgov.com
+# 以下已移至 Meeting.list
+# DOMAIN-SUFFIX,slack.com
+# DOMAIN-SUFFIX,slack-edge.com
+# DOMAIN-SUFFIX,zoom.us
+# DOMAIN-SUFFIX,zoomgov.com
 DOMAIN-SUFFIX,metabase.com
 DOMAIN-SUFFIX,plot.ly
 DOMAIN-SUFFIX,tailwindcss.com
