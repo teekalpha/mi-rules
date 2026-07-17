@@ -1,0 +1,11 @@
+# Private Network (最高优先级，永远直连)
+# 从 Direct.list 拆出，单独提前到规则链最前面：私网 IP/本地域名与所有境外业务规则零冲突，
+# 提前后可以让局域网/本地流量在最短路径内命中直连，不用先走完其余几百行业务规则。
+
+IP-CIDR,127.0.0.0/8,no-resolve
+IP-CIDR,10.0.0.0/8,no-resolve
+IP-CIDR,172.16.0.0/12,no-resolve
+IP-CIDR,192.168.0.0/16,no-resolve
+IP-CIDR,198.18.0.0/16,no-resolve
+DOMAIN-SUFFIX,local
+DOMAIN-SUFFIX,orb.local

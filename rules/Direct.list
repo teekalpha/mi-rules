@@ -1,15 +1,5 @@
 # Direct Access
-
-# ===========================================================
-# 私有 / 本地网络（最高优先级）
-# ===========================================================
-IP-CIDR,127.0.0.0/8,no-resolve
-IP-CIDR,10.0.0.0/8,no-resolve
-IP-CIDR,172.16.0.0/12,no-resolve
-IP-CIDR,192.168.0.0/16,no-resolve
-IP-CIDR,198.18.0.0/16,no-resolve
-DOMAIN-SUFFIX,local
-DOMAIN-SUFFIX,orb.local
+# 私网/本地网络规则已拆分至 Private.list，并在 pref.ini 中提前到规则链最前面
 
 # BT / 种子（避免走代理）
 DOMAIN-KEYWORD,torrent

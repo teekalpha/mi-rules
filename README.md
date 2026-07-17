@@ -20,6 +20,7 @@
 ## 📁 目录及规则说明
 
 - **/rules**：分类规则集 (.list)
+  - `Private.list`: 私网/本地网络 (最高优先级，恒定直连，规则链最前置以减少匹配开销)
   - `AI.list`: 核心 AI 基础设施 (OpenAI, Claude, Grok, Manus, Cursor 等)
   - `TikTok.list`: 字节跳动海外及全系短视频平台 CDN
   - `Meeting.list`: 在线视频会议与直播服务 (Zoom, Google Meet, Teams, Discord, Slack, Twitch, VooV 等)
@@ -28,7 +29,7 @@
   - `Media.list`: 国际主流流媒体 (Netflix, Disney+, Spotify 等)
   - `HomeProxy.list`: 家宽专用服务 (WhatsApp, Reddit, 以及 PayPal、Stripe、风控主机商等高防欺诈要求平台)
   - `Proxy.list`: 综合性墙外服务 (社交、效率工具、新闻、开发者服务以及长尾 AI 工具)
-  - `Direct.list`: 国内互联网服务 (阿里/腾讯/百度等)、私有网络及特殊白名单
+  - `Direct.list`: 国内互联网服务 (阿里/腾讯/百度等) 及特殊白名单
 
 - **/base**：基础配置文件
   - `pref.ini`: Subconverter 全局配置入口，已集成上述所有的策略组和规则集，开箱即用。
