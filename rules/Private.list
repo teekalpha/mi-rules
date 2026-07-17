@@ -8,4 +8,3 @@ IP-CIDR,172.16.0.0/12,no-resolve
 IP-CIDR,192.168.0.0/16,no-resolve
 IP-CIDR,198.18.0.0/16,no-resolve
 DOMAIN-SUFFIX,local
-DOMAIN-SUFFIX,orb.local

@@ -9,7 +9,6 @@ DOMAIN-KEYWORD,tracker
 # 特殊直连
 # ===========================================================
 DOMAIN-SUFFIX,95516.com
-DOMAIN-SUFFIX,12306.cn
 
 # Cloudflare ASN 直连（Clash Meta 支持）
 IP-ASN,13335,no-resolve
@@ -37,8 +36,6 @@ DOMAIN-SUFFIX,wechat.com
 DOMAIN-SUFFIX,tencent.com
 DOMAIN-SUFFIX,tencentcloud.com
 DOMAIN-SUFFIX,qcloud.com
-DOMAIN-SUFFIX,qpic.cn
-DOMAIN-SUFFIX,qlogo.cn
 DOMAIN-SUFFIX,gtimg.com
 
 # ===========================================================
@@ -57,7 +54,6 @@ DOMAIN-SUFFIX,bytedance.com
 DOMAIN-SUFFIX,douyin.com
 DOMAIN-SUFFIX,toutiao.com
 DOMAIN-SUFFIX,ixigua.com
-DOMAIN-SUFFIX,feishu.cn
 DOMAIN-SUFFIX,larkoffice.com
 DOMAIN-SUFFIX,byteimg.com
 DOMAIN-SUFFIX,pstatp.com
@@ -82,7 +78,6 @@ DOMAIN-SUFFIX,netease.com
 # ===========================================================
 DOMAIN-SUFFIX,bilibili.com
 DOMAIN-SUFFIX,bilivideo.com
-DOMAIN-SUFFIX,bilivideo.cn
 DOMAIN-SUFFIX,hdslb.com
 
 # ===========================================================
@@ -97,9 +92,6 @@ DOMAIN-SUFFIX,le.com
 # 社交
 # ===========================================================
 DOMAIN-SUFFIX,weibo.com
-DOMAIN-SUFFIX,weibo.cn
-DOMAIN-SUFFIX,sinaimg.cn
-DOMAIN-SUFFIX,sina.com.cn
 DOMAIN-SUFFIX,zhihu.com
 DOMAIN-SUFFIX,xiaohongshu.com
 DOMAIN-SUFFIX,xhscdn.com

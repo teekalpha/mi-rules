@@ -35,7 +35,6 @@ DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,youtube-nocookie.com
-DOMAIN-SUFFIX,youtubei.googleapis.com
 
 # ===========================================================
 # Process Names（Clash Meta 支持）

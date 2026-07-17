@@ -22,17 +22,8 @@ DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,prodregistryv2.org
 DOMAIN-SUFFIX,featureassets.org
 DOMAIN-SUFFIX,workos.com
-# 移动端及 API 增强
-DOMAIN,ios.chat.openai.com
-DOMAIN,android.chat.openai.com
-DOMAIN,tcr9i.chat.openai.com
-DOMAIN,api.openai.com
-DOMAIN-SUFFIX,chat.openai.com
-DOMAIN-SUFFIX,search.chatgpt.com
 # 验证与辅助
 DOMAIN-SUFFIX,challenges.cloudflare.com
-DOMAIN-SUFFIX,auth0.openai.com
-DOMAIN,openai-api.arkoselabs.com
 # OpenAI 专属 Sentry 遥测，防 IP 穿帮关联
 DOMAIN,o33249.ingest.us.sentry.io
 
@@ -57,7 +48,6 @@ IP-CIDR6,2607:6bc0::/32,no-resolve
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,xai.com
-DOMAIN-SUFFIX,api.x.ai
 
 # ===========================================================
 # Manus
