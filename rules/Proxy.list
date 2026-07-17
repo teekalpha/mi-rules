@@ -110,6 +110,9 @@ DOMAIN-SUFFIX,bloomberg.com
 # ===========================================================
 # 其他常用
 # ===========================================================
+DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,wikimedia.org
+DOMAIN-SUFFIX,w.wiki
 DOMAIN-SUFFIX,amazon.com
 DOMAIN-SUFFIX,duckduckgo.com
 DOMAIN-SUFFIX,brave.com
