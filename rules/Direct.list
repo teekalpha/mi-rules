@@ -133,9 +133,6 @@ DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,apple-dns.net
 
-# ===========================================================
-# 顶级域名兜底
-# ===========================================================
-DOMAIN-SUFFIX,cn
+
 
 

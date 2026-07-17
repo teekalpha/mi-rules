@@ -14,9 +14,37 @@ DOMAIN-SUFFIX,ytimg.com
 DOMAIN-SUFFIX,googletagmanager.com
 DOMAIN-SUFFIX,googlefonts.com
 DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,chromium.org
+DOMAIN-SUFFIX,gvt0.com
 DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,gvt2.com
+DOMAIN-SUFFIX,gvt3.com
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+DOMAIN-SUFFIX,xn--ngstr-lra8z.com
+DOMAIN-SUFFIX,googleplay.com
+DOMAIN-SUFFIX,googlecnapps.cn
+DOMAIN-SUFFIX,googleapis.cn
+DOMAIN-SUFFIX,android.com
+
+# Firebase
+DOMAIN-SUFFIX,firebase.com
+DOMAIN-SUFFIX,firebaseio.com
+DOMAIN-SUFFIX,firebaseapp.com
+DOMAIN-SUFFIX,firebase.io
+
+# App Engine
+DOMAIN-SUFFIX,appspot.com
+
+# 验证码 / 其他辅助
+DOMAIN-SUFFIX,recaptcha.net
+DOMAIN-SUFFIX,app-measurement.net
+
+# 其它 GVT 变体
+DOMAIN-SUFFIX,gvt5.com
+DOMAIN-SUFFIX,gvt6.com
+DOMAIN-SUFFIX,gvt7.com
+DOMAIN-SUFFIX,gvt9.com
 
 # Google 短链 / 其他 TLD / 相关服务
 DOMAIN,c.gle
