@@ -25,7 +25,6 @@ DOMAIN-KEYWORD,pippit
 # ===========================================================
 # Musical.ly / 旧域名
 # ===========================================================
-DOMAIN-SUFFIX,musical.ly
 DOMAIN-SUFFIX,muscdn.com
 
 # ===========================================================
@@ -50,5 +49,5 @@ PROCESS-NAME,com.zhiliaoapp.musically
 # ===========================================================
 # GeoSite / GeoIP（由 pref.ini 内联注入）
 # ===========================================================
-# GEOSITE,tiktok  → 在 pref.dev.ini ruleset 中已配置
-# GEOIP,tiktok    → 在 pref.dev.ini ruleset 中已配置
+# GEOSITE,tiktok  → 在 pref.ini ruleset 中已配置
+# GEOIP,tiktok    → 在 pref.ini ruleset 中已配置
