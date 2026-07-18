@@ -18,6 +18,8 @@ DOMAIN-SUFFIX,pinterest.com
 # ===========================================================
 # 通讯
 # ===========================================================
+# Telegram：域名规则见下方，纯 IP 连接（MTProto 等）靠
+# GEOIP,telegram 兜底 → 在 pref.ini ruleset 中已配置
 DOMAIN-SUFFIX,telegram.org
 DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,telesco.pe
