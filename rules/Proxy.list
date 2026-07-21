@@ -50,6 +50,8 @@ DOMAIN-SUFFIX,debian.org
 DOMAIN-SUFFIX,vercel.com
 DOMAIN-SUFFIX,vercel.app
 DOMAIN-SUFFIX,nodejs.org
+DOMAIN-SUFFIX,golang.org
+DOMAIN-SUFFIX,go.dev
 DOMAIN-SUFFIX,astral.sh
 DOMAIN-SUFFIX,brew.sh
 DOMAIN-SUFFIX,astro.build
