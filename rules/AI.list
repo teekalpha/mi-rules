@@ -45,9 +45,11 @@ IP-CIDR6,2607:6bc0::/32,no-resolve
 # ===========================================================
 # Grok / xAI
 # ===========================================================
+# x.ai / grok.com 后缀已覆盖认证、API、控制台、资产与 CLI 子域；Grokipedia 使用独立根域。
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,xai.com
+DOMAIN-SUFFIX,grokipedia.com
 
 # ===========================================================
 # Manus
