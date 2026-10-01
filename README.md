@@ -21,7 +21,7 @@
 
 - **/rules**：分类规则集 (.list)
   - `Private.list`: 私网/本地网络 (最高优先级，恒定直连，规则链最前置以减少匹配开销)
-  - `AI.list`: 核心 AI 基础设施 (OpenAI, Claude, Grok, Manus, Cursor 等)
+  - `AI.list`: 核心 AI 基础设施 (OpenAI, Meta Muse/Meta AI, Claude, Grok, Manus, Cursor 等)
   - `TikTok.list`: 字节跳动海外及全系短视频平台 CDN
   - `Meeting.list`: 在线视频会议与直播服务 (Zoom, Google Meet, Teams, Discord, Slack, Twitch, VooV 等)
   - `Google.list`: Google 核心服务与 YouTube 系媒体
