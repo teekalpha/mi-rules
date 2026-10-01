@@ -1,16 +1,6 @@
 # Home Proxy Rules (家宽专用)
 
 # ===========================================================
-# WhatsApp
-# ===========================================================
-DOMAIN,graph.facebook.com
-DOMAIN-SUFFIX,wa.me
-DOMAIN-SUFFIX,whatsapp.biz
-DOMAIN-SUFFIX,whatsapp.com
-DOMAIN-SUFFIX,whatsapp.net
-DOMAIN-KEYWORD,whatsapp
-
-# ===========================================================
 # Reddit
 # ===========================================================
 DOMAIN-SUFFIX,reddit.com

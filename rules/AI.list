@@ -28,16 +28,6 @@ DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN,o33249.ingest.us.sentry.io
 
 # ===========================================================
-# Meta Muse / Meta AI
-# ===========================================================
-# Muse 站点、认证及 API 子域；Android 应用共享域名由 pref.ini 的进程规则优先匹配
-DOMAIN-SUFFIX,muse.ai
-DOMAIN-SUFFIX,meta.ai
-DOMAIN,auth.meta.com
-DOMAIN,accountscenter.meta.com
-DOMAIN,ai.meta.com
-
-# ===========================================================
 # Anthropic / Claude
 # ===========================================================
 DOMAIN-SUFFIX,anthropic.com

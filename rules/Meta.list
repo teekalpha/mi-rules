@@ -1,0 +1,39 @@
+# Meta services: use one selected exit for shared sign-in, apps and CDN traffic.
+
+# Android apps (also catches connections to IP addresses without a hostname)
+PROCESS-NAME,com.facebook.aura
+PROCESS-NAME,com.facebook.stella
+PROCESS-NAME,com.facebook.katana
+PROCESS-NAME,com.facebook.orca
+PROCESS-NAME,com.instagram.android
+PROCESS-NAME,com.instagram.barcelona
+PROCESS-NAME,com.whatsapp
+PROCESS-NAME,com.whatsapp.w4b
+
+# Meta accounts, Muse and Meta AI
+DOMAIN-SUFFIX,meta.com
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,muse.ai
+
+# Facebook, Messenger, Instagram and Threads
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,facebook.net
+DOMAIN-SUFFIX,fb.com
+DOMAIN-SUFFIX,fbsbx.com
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,ig.me
+DOMAIN-SUFFIX,messenger.com
+DOMAIN-SUFFIX,m.me
+DOMAIN-SUFFIX,threads.com
+DOMAIN-SUFFIX,threads.net
+
+# WhatsApp
+DOMAIN-SUFFIX,wa.me
+DOMAIN-SUFFIX,whatsapp.biz
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.net
+
+# Meta-owned IP connections without a hostname (AS32934 in the Muse log)
+IP-ASN,32934,no-resolve
