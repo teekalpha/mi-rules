@@ -8,7 +8,7 @@
 
 1. **🚀 代理节点**（基础节点池，包含所有可用节点）
 2. **🏠 家宽节点**（手动指定用于对原生 IP 要求极高的节点）
-3. **🔵 Meta 服务**（默认：`🏠 家宽节点`，Facebook、Instagram、WhatsApp、Muse 等共用出口）
+3. **🔵 Meta 服务**（默认：`🏠 家宽节点`，Facebook、Instagram、WhatsApp、Muse、Quest 等共用出口）
 4. **🎵 TikTok**（默认：`🏠 家宽节点`，备用：代理节点/直连）
 5. **🤖 AI 服务**（默认：`🏠 家宽节点`，备用：代理节点/直连）
 6. **🎙️ 会议直播**（默认：`🚀 代理节点`，备用：家宽节点/直连）
@@ -22,7 +22,7 @@
 
 - **/rules**：分类规则集 (.list)
   - `Private.list`: 私网/本地网络 (最高优先级，恒定直连，规则链最前置以减少匹配开销)
-  - `Meta.list`: Meta 系服务 (Facebook、Instagram、WhatsApp、Muse、Meta AI 等)，包含 Android 包名和 Meta ASN 的无域名连接
+  - `Meta.list`: Meta 系服务 (Facebook、Instagram、WhatsApp、Muse、Meta AI、Quest 等)，包含 Android 包名和 Meta ASN 的无域名连接
   - `AI.list`: 核心 AI 基础设施 (OpenAI, Claude, Grok, Manus, Cursor 等)
   - `TikTok.list`: 字节跳动海外及全系短视频平台 CDN
   - `Meeting.list`: 在线视频会议与直播服务 (Zoom, Google Meet, Teams, Discord, Slack, Twitch, VooV 等)
