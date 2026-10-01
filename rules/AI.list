@@ -30,7 +30,7 @@ DOMAIN,o33249.ingest.us.sentry.io
 # ===========================================================
 # Meta Muse / Meta AI
 # ===========================================================
-# Muse 站点、认证及 API 子域；Facebook/Instagram 共享登录域名见 Proxy.list
+# Muse 站点、认证及 API 子域；Android 应用共享域名由 pref.ini 的进程规则优先匹配
 DOMAIN-SUFFIX,muse.ai
 DOMAIN-SUFFIX,meta.ai
 DOMAIN,auth.meta.com

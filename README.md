@@ -32,7 +32,7 @@
   - `Direct.list`: 国内互联网服务 (阿里/腾讯/百度等) 及特殊白名单
 
 - **/base**：基础配置文件
-  - `pref.ini`: Subconverter 全局配置入口，已集成上述所有的策略组和规则集，开箱即用。
+  - `pref.ini`: Subconverter 全局配置入口，已集成上述所有的策略组和规则集，开箱即用。Muse Android 应用 (`com.facebook.aura`) 在家宽及通用域名规则之前统一进入「🤖 AI 服务」；所选节点支持 UDP 时，也覆盖无域名的 UDP 连接。
 
 ## 🚀 使用方法
 
