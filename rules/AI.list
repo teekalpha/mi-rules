@@ -1,4 +1,4 @@
-# AI Services（核心产品）
+# AI Services（产品及认证、内容、更新依赖）
 # Gemini → 已由 Google.list 覆盖
 
 # ===========================================================
@@ -6,7 +6,10 @@
 # ===========================================================
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,chat.com
+DOMAIN-SUFFIX,chatgpt.site
+DOMAIN-SUFFIX,openai.org
+DOMAIN-SUFFIX,crixet.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaistatsig.com
 DOMAIN-SUFFIX,oaiusercontent.com
@@ -22,10 +25,28 @@ DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,prodregistryv2.org
 DOMAIN-SUFFIX,featureassets.org
 DOMAIN-SUFFIX,workos.com
+DOMAIN-SUFFIX,ct.sendgrid.net
+# 独立资源主机：不将整个共享 CDN / 云存储域名归入 AI
+DOMAIN,cdn.openaimerge.com
+DOMAIN,images.workoscdn.com
+DOMAIN,workos.imgix.net
+DOMAIN,openaiassets.blob.core.windows.net
+DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
+# 实时语音所用的 LiveKit 服务子域
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,host.livekit.cloud
+DOMAIN-SUFFIX,turn.livekit.cloud
 # 验证与辅助
 DOMAIN-SUFFIX,challenges.cloudflare.com
-# OpenAI 专属 Sentry 遥测，防 IP 穿帮关联
+DOMAIN,humb.apple.com
+DOMAIN,js.intercomcdn.com
+# 产品专属遥测随 AI 服务分流，不扩大到整个 Sentry / Datadog
+DOMAIN,o207216.ingest.sentry.io
+DOMAIN,o33249.ingest.sentry.io
 DOMAIN,o33249.ingest.us.sentry.io
+DOMAIN,rum.browser-intake-datadoghq.com
+DOMAIN,openai.qualtrics.com
 
 # ===========================================================
 # Anthropic / Claude
@@ -34,13 +55,29 @@ DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,claude.com
+# 历史兼容别名；不将它作为当前官方 API 入口
 DOMAIN-SUFFIX,anthropic.ai
-DOMAIN-SUFFIX,claude.code
+DOMAIN-SUFFIX,clau.de
+DOMAIN-SUFFIX,claude.app
+DOMAIN-SUFFIX,claude.dev
+DOMAIN-SUFFIX,claude.new
+DOMAIN-SUFFIX,claude.site
+DOMAIN-SUFFIX,claudeacademy.com
+DOMAIN-SUFFIX,claudepages.dev
+# MCP Apps / Artifact 的动态内容主机
+DOMAIN-SUFFIX,claudemcpcontent.com
+DOMAIN-SUFFIX,claudemcpclient.com
 DOMAIN-SUFFIX,servd-anthropic-website.b-cdn.net
 DOMAIN,cdn.usefathom.com
+DOMAIN,o1158394.ingest.us.sentry.io
+DOMAIN,http-intake.logs.us5.datadoghq.com
+DOMAIN,browser-intake-us5-datadoghq.com
+# 官方 Inbound（用户访问 API / Console 的目的地址），不是 Outbound 地址
 IP-CIDR,160.79.104.0/23,no-resolve
+IP-CIDR,153.61.224.0/22,no-resolve
+IP-CIDR6,2607:6bc0::/48,no-resolve
+# 历史服务段仍由 Anthropic 公告，保留兼容；当前官方入站清单未列
 IP-CIDR,209.249.57.0/24,no-resolve
-IP-CIDR6,2607:6bc0::/32,no-resolve
 
 # ===========================================================
 # Grok / xAI
@@ -49,14 +86,18 @@ IP-CIDR6,2607:6bc0::/32,no-resolve
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,grokusercontent.com
-DOMAIN-SUFFIX,xai.com
 DOMAIN-SUFFIX,grokipedia.com
+DOMAIN-SUFFIX,grokbot.com
+# Cursor 当前登录链路还使用此独立认证主机
+DOMAIN,accounts.spacex.ai
 
 # ===========================================================
 # Manus
 # ===========================================================
 DOMAIN-SUFFIX,manus.im
 DOMAIN-SUFFIX,manus.ai
+DOMAIN-SUFFIX,manuscdn.com
+DOMAIN-SUFFIX,manus.space
 
 # ===========================================================
 # Cursor
@@ -64,3 +105,71 @@ DOMAIN-SUFFIX,manus.ai
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,cursor.ai
+DOMAIN-SUFFIX,cursorapi.com
+DOMAIN-SUFFIX,cursor-cdn.com
+DOMAIN-SUFFIX,cursorvm.com
+DOMAIN,anysphere-binaries.s3.us-east-1.amazonaws.com
+
+# ===========================================================
+# GitHub Copilot（先于通用 GitHub 规则匹配，统一 AI 出口）
+# ===========================================================
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN,copilot-proxy.githubusercontent.com
+DOMAIN,origin-tracker.githubusercontent.com
+DOMAIN,copilot-telemetry.githubusercontent.com
+DOMAIN,copilot-telemetry-service.githubusercontent.com
+DOMAIN,copilot-workspace.githubnext.com
+DOMAIN,copilotprodattachments.blob.core.windows.net
+DOMAIN,default.exp-tas.com
+DOMAIN,production-copilot-host.webpubsub.azure.com
+DOMAIN,production-copilot-host-centralus.webpubsub.azure.com
+DOMAIN,production-copilot-host-centralus-02.webpubsub.azure.com
+DOMAIN,production-copilot-host-westus.webpubsub.azure.com
+DOMAIN,production-copilot-host-westus3.webpubsub.azure.com
+DOMAIN,production-copilot-host-eastasia.webpubsub.azure.com
+DOMAIN,production-copilot-host-austriaeast.webpubsub.azure.com
+
+# ===========================================================
+# Windsurf / Codeium / Devin 与 JetBrains AI
+# ===========================================================
+DOMAIN-SUFFIX,windsurf.com
+DOMAIN-SUFFIX,codeium.com
+DOMAIN-SUFFIX,codeiumdata.com
+DOMAIN-SUFFIX,devin.ai
+DOMAIN-SUFFIX,devinenterprise.com
+DOMAIN,decagon.ai
+DOMAIN-SUFFIX,jetbrains.ai
+DOMAIN-SUFFIX,grazie.ai
+DOMAIN,grazie.aws.intellij.net
+DOMAIN-SUFFIX,trae.ai
+DOMAIN,trae-api-sg.mchost.guru
+
+# ===========================================================
+# 其他 AI 产品（从通用代理规则归并，覆盖独立资源域名）
+# ===========================================================
+# ai.com 为独立 Agent 产品，不归属 OpenAI
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,youmind.com
+DOMAIN-SUFFIX,dreamfaceapp.com
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,perplexity.com
+DOMAIN-SUFFIX,pplx.ai
+DOMAIN,ppl-ai-file-upload.s3.amazonaws.com
+DOMAIN,pplx-res.cloudinary.com
+DOMAIN-SUFFIX,genspark.ai
+DOMAIN-SUFFIX,midjourney.com
+DOMAIN-SUFFIX,stability.ai
+DOMAIN-SUFFIX,dreamstudio.ai
+# hf.co 后缀覆盖多级 Xet / CDN 主机；hf.space 覆盖动态 Spaces
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,hf.co
+DOMAIN-SUFFIX,hf.space
+DOMAIN-SUFFIX,mistral.ai
+DOMAIN-SUFFIX,groq.com
+DOMAIN-SUFFIX,heygen.com
+DOMAIN-SUFFIX,invideo.io
+DOMAIN-SUFFIX,elevenlabs.io
+DOMAIN-SUFFIX,elevenlabs.com
+DOMAIN-SUFFIX,elevenlabsusercontent.com
+DOMAIN-SUFFIX,seaart.ai
+DOMAIN-SUFFIX,lovart.ai

@@ -5,13 +5,45 @@
 # ===========================================================
 DOMAIN-SUFFIX,tiktok.com
 DOMAIN-SUFFIX,tiktokshop.com
+DOMAIN-SUFFIX,tiktokglobalshop.com
+DOMAIN-SUFFIX,tiktokapis.com
 DOMAIN-SUFFIX,tik-tokapi.com
 DOMAIN-SUFFIX,tiktokcdn.com
 DOMAIN-SUFFIX,tiktokcdn-us.com
 DOMAIN-SUFFIX,tiktokd.net
 DOMAIN-SUFFIX,tiktokd.org
 DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,tiktokv.us
+DOMAIN-SUFFIX,tiktokv.eu
+DOMAIN-SUFFIX,tiktokvapp.com
+DOMAIN-SUFFIX,tiktokw.us
+DOMAIN-SUFFIX,tiktokw.eu
+DOMAIN-SUFFIX,tiktokcdn-eu.com
+DOMAIN-SUFFIX,tiktokeu-cdn.com
+DOMAIN-SUFFIX,tiktokrow-cdn.com
+DOMAIN-SUFFIX,tiktok-row.net
+DOMAIN-SUFFIX,tiktokstaticb.com
+DOMAIN-SUFFIX,tiktokglobalshopv.com
+DOMAIN-SUFFIX,tiktok-minis.com
+DOMAIN-SUFFIX,tiktokminis.us
+DOMAIN-SUFFIX,ttcdn-us.com
+DOMAIN-SUFFIX,ttlivecdn.com
+DOMAIN-SUFFIX,ttoverseaus.net
+DOMAIN-SUFFIX,ttwstatic.com
 DOMAIN,p16-tiktokcdn-com.akamaized.net
+# 只匹配 TikTok 专属 CDN 命名，不扩大到整个 Akamai
+DOMAIN-SUFFIX,tiktokcdn-us.com.edgesuite.net
+DOMAIN-SUFFIX,tiktokcdn.com.akamaized.net
+DOMAIN-SUFFIX,tiktokcdn.com.edgesuite.net
+DOMAIN-SUFFIX,tiktokv.com.edgekey.net
+DOMAIN-SUFFIX,tiktokv.com.edgesuite.net
+
+# CapCut / Pippit 的独立 API 和素材域名
+DOMAIN-SUFFIX,capcut.com
+DOMAIN-SUFFIX,capcutapi.com
+DOMAIN-SUFFIX,capcutapi.us
+DOMAIN-SUFFIX,capcutstatic.com
+DOMAIN-SUFFIX,pippit.ai
 
 # ===========================================================
 # TikTok / CapCut 关键词
@@ -25,11 +57,13 @@ DOMAIN-KEYWORD,pippit
 # Musical.ly / 旧域名
 # ===========================================================
 DOMAIN-SUFFIX,muscdn.com
+DOMAIN-SUFFIX,musical.ly
 
 # ===========================================================
 # ByteDance 海外 SDK / CDN
 # ===========================================================
 DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,byteintlapi.com
 DOMAIN-SUFFIX,bytedapm.com
 DOMAIN-SUFFIX,bytegecko.com
 DOMAIN-SUFFIX,bytegecko-i18n.com
@@ -39,6 +73,14 @@ DOMAIN-SUFFIX,ipstatp.com
 DOMAIN-SUFFIX,isnssdk.com
 DOMAIN-SUFFIX,sgpstatp.com
 DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,ttwebview.com
+DOMAIN,lf16-effectcdn.byteeffecttos-g.com
+DOMAIN,lf16-pkgcdn.pitaya-clientai.com
+# TikTok 专属归因主机，不将整个 AppsFlyer 归入 TikTok
+DOMAIN,roovza-launches.appsflyersdk.com
+DOMAIN,roovza.inapps.appsflyersdk.com
+DOMAIN,roovza.launches.appsflyersdk.com
+DOMAIN,roovza.skadsdk.appsflyersdk.com
 
 # ===========================================================
 # Process Names（Clash Meta 支持）
@@ -46,7 +88,7 @@ DOMAIN-SUFFIX,snssdk.com
 PROCESS-NAME,com.zhiliaoapp.musically
 
 # ===========================================================
-# GeoSite / GeoIP（由 pref.ini 内联注入）
+# GeoSite（由 pref.ini 内联注入）
 # ===========================================================
 # GEOSITE,tiktok  → 在 pref.ini ruleset 中已配置
-# GEOIP,tiktok    → 在 pref.ini ruleset 中已配置
+# 不假设默认 GeoIP 数据库存在 tiktok 类别；域名、关键词和进程规则保留兜底

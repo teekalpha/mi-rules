@@ -29,32 +29,6 @@ DOMAIN-SUFFIX,telesco.pe
 DOMAIN-SUFFIX,signal.org
 
 # ===========================================================
-# 开发者工具
-# ===========================================================
-DOMAIN-SUFFIX,github.com
-DOMAIN-SUFFIX,githubusercontent.com
-DOMAIN-SUFFIX,githubassets.com
-DOMAIN-SUFFIX,gitlab.com
-DOMAIN-SUFFIX,npmjs.com
-DOMAIN-SUFFIX,npmjs.org
-DOMAIN-SUFFIX,pypi.org
-DOMAIN-SUFFIX,pythonhosted.org
-DOMAIN-SUFFIX,docker.com
-DOMAIN-SUFFIX,dockerhub.com
-DOMAIN-SUFFIX,docker.io
-DOMAIN-SUFFIX,debian.org
-DOMAIN-SUFFIX,vercel.com
-DOMAIN-SUFFIX,vercel.app
-DOMAIN-SUFFIX,nodejs.org
-DOMAIN-SUFFIX,golang.org
-DOMAIN-SUFFIX,go.dev
-DOMAIN-SUFFIX,astral.sh
-DOMAIN-SUFFIX,brew.sh
-DOMAIN-SUFFIX,astro.build
-DOMAIN,wiki.metacubex.one
-DOMAIN,playwright.azureedge.net
-
-# ===========================================================
 # 平台与云服务 / AI平台
 # ===========================================================
 DOMAIN-SUFFIX,byteplus.com
@@ -124,25 +98,6 @@ DOMAIN-SUFFIX,stackoverflow.com
 DOMAIN-SUFFIX,joinbrands.com
 DOMAIN-SUFFIX,openstreetmap.org
 DOMAIN-SUFFIX,chintao.cn
-
-# ===========================================================
-# AI 工具（长尾产品）
-# ===========================================================
-DOMAIN-SUFFIX,youmind.com
-DOMAIN-SUFFIX,dreamfaceapp.com
-DOMAIN-SUFFIX,perplexity.ai
-DOMAIN-SUFFIX,genspark.ai
-DOMAIN-SUFFIX,midjourney.com
-DOMAIN-SUFFIX,stability.ai
-DOMAIN-SUFFIX,dreamstudio.ai
-DOMAIN-SUFFIX,huggingface.co
-DOMAIN-SUFFIX,mistral.ai
-DOMAIN-SUFFIX,groq.com
-DOMAIN-SUFFIX,heygen.com
-DOMAIN-SUFFIX,invideo.io
-DOMAIN-SUFFIX,elevenlabs.io
-DOMAIN-SUFFIX,seaart.ai
-DOMAIN-SUFFIX,lovart.ai
 
 # ===========================================================
 # 软件下载 / 应用商店

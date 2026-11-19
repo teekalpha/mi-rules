@@ -4,6 +4,12 @@
 # Google 核心
 # ===========================================================
 DOMAIN-SUFFIX,google.com
+# Google 自有品牌后缀，代替会误匹配任意域名的 goog 关键词
+DOMAIN-SUFFIX,google
+DOMAIN-SUFFIX,goog
+DOMAIN-SUFFIX,google.dev
+DOMAIN-SUFFIX,withgoogle.com
+DOMAIN-SUFFIX,googlesource.com
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,gstatic.com
@@ -20,12 +26,15 @@ DOMAIN-SUFFIX,gvt0.com
 DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,gvt2.com
 DOMAIN-SUFFIX,gvt3.com
+DOMAIN-SUFFIX,android.com
+
+# Google Play：商店 / 调度 API 与下载 CDN 保持同组，后缀覆盖动态下载主机
+# xn--ngstr-lra8j.com 是真实的 Google 下载域名；原 lra8z 拼写无注册记录
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-DOMAIN-SUFFIX,xn--ngstr-lra8z.com
 DOMAIN-SUFFIX,googleplay.com
 DOMAIN-SUFFIX,googlecnapps.cn
 DOMAIN-SUFFIX,googleapis.cn
-DOMAIN-SUFFIX,android.com
+# play-fe / play-lh / android.apis 等主机已由上面的 Google 后缀规则覆盖
 
 # Firebase
 DOMAIN-SUFFIX,firebase.com
@@ -35,6 +44,8 @@ DOMAIN-SUFFIX,firebase.io
 
 # App Engine
 DOMAIN-SUFFIX,appspot.com
+DOMAIN-SUFFIX,gcr.io
+DOMAIN-SUFFIX,pkg.dev
 
 # 验证码 / 其他辅助
 DOMAIN-SUFFIX,recaptcha.net
@@ -52,9 +63,9 @@ DOMAIN-SUFFIX,goo.gle
 DOMAIN-SUFFIX,goo.gl
 DOMAIN-SUFFIX,google.co.jp
 DOMAIN-SUFFIX,run.app
-DOMAIN-SUFFIX,open-vsx.org
 DOMAIN-SUFFIX,antigravity-unleash.goog
-DOMAIN-KEYWORD,goog
+DOMAIN-SUFFIX,ai.studio
+DOMAIN-SUFFIX,deepmind.com
 
 # ===========================================================
 # YouTube
