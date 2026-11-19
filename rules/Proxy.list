@@ -1,8 +1,6 @@
 # Global Proxy
 
-# ===========================================================
 # 社交媒体
-# ===========================================================
 DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,twimg.com
@@ -11,21 +9,11 @@ DOMAIN-SUFFIX,linkedin.com
 DOMAIN-SUFFIX,licdn.com
 DOMAIN-SUFFIX,pinterest.com
 
-# ===========================================================
 # 通讯
-# ===========================================================
-# Telegram：域名规则见下方，纯 IP 连接（MTProto 等）靠
-# GEOIP,telegram 兜底 → 在 pref.ini ruleset 中已配置
 DOMAIN-SUFFIX,telegram.org
 DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,telesco.pe
-# 以下已移至 Meeting.list
-# DOMAIN-SUFFIX,discord.com
-# DOMAIN-SUFFIX,discord.gg
-# DOMAIN-SUFFIX,discordapp.com
-# DOMAIN-SUFFIX,discordapp.net
-# DOMAIN-SUFFIX,discord.media
-# DOMAIN-SUFFIX,discordcdn.com
+
 DOMAIN-SUFFIX,signal.org
 DOMAIN-SUFFIX,signal.art
 DOMAIN-SUFFIX,signal.group
@@ -33,54 +21,42 @@ DOMAIN-SUFFIX,signal.link
 DOMAIN-SUFFIX,signal.me
 DOMAIN-SUFFIX,signal.tube
 
-# ===========================================================
-# 平台与云服务 / AI平台
-# ===========================================================
+# 云服务
 DOMAIN-SUFFIX,byteplus.com
 
-# ===========================================================
 # 论坛 / 社区
-# ===========================================================
 DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,linux.do
+DOMAIN-SUFFIX,quora.com
+DOMAIN-SUFFIX,stackoverflow.com
 
-# ===========================================================
-# 效率工具
-# ===========================================================
-# 其他工具
+# 办公、协作与文件
 DOMAIN-SUFFIX,notion.so
 DOMAIN-SUFFIX,notion.com
-DOMAIN-SUFFIX,excalidraw.com
-DOMAIN-SUFFIX,canva.com
-DOMAIN-SUFFIX,behance.net
-DOMAIN-SUFFIX,adobe.com
 DOMAIN-SUFFIX,airtable.com
 DOMAIN-SUFFIX,teable.ai
 DOMAIN-SUFFIX,dropbox.com
 DOMAIN-SUFFIX,dropboxstatic.com
-# 以下已移至 Meeting.list
-# DOMAIN-SUFFIX,slack.com
-# DOMAIN-SUFFIX,slack-edge.com
-# DOMAIN-SUFFIX,zoom.us
-# DOMAIN-SUFFIX,zoomgov.com
+
+# 设计与前端素材
+DOMAIN-SUFFIX,excalidraw.com
+DOMAIN-SUFFIX,canva.com
+DOMAIN-SUFFIX,adobe.com
+DOMAIN-SUFFIX,behance.net
+DOMAIN-SUFFIX,tailwindcss.com
+
+# 数据工具
 DOMAIN-SUFFIX,metabase.com
 DOMAIN-SUFFIX,plot.ly
-DOMAIN-SUFFIX,tailwindcss.com
-DOMAIN-SUFFIX,annas-archive.se
-DOMAIN-SUFFIX,rsshub.app
 
-# ===========================================================
-# 监控 / 错误追踪 / 分析
-# ===========================================================
+# 监控、分析与客服
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,launchdarkly.com
 
-# ===========================================================
 # 新闻媒体
-# ===========================================================
 DOMAIN-SUFFIX,nytimes.com
 DOMAIN-SUFFIX,bbc.com
 DOMAIN-SUFFIX,bbc.co.uk
@@ -88,29 +64,27 @@ DOMAIN-SUFFIX,theguardian.com
 DOMAIN-SUFFIX,reuters.com
 DOMAIN-SUFFIX,bloomberg.com
 
-# ===========================================================
-# 其他常用
-# ===========================================================
+# 百科、阅读与订阅
 DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,wikimedia.org
 DOMAIN-SUFFIX,w.wiki
-DOMAIN-SUFFIX,amazon.com
+DOMAIN-SUFFIX,medium.com
+DOMAIN-SUFFIX,annas-archive.se
+DOMAIN-SUFFIX,rsshub.app
+
+# 搜索与地图
 DOMAIN-SUFFIX,duckduckgo.com
 DOMAIN-SUFFIX,brave.com
-DOMAIN-SUFFIX,medium.com
-DOMAIN-SUFFIX,quora.com
-DOMAIN-SUFFIX,stackoverflow.com
-DOMAIN-SUFFIX,joinbrands.com
 DOMAIN-SUFFIX,openstreetmap.org
+
+# 其他网站
+DOMAIN-SUFFIX,amazon.com
+DOMAIN-SUFFIX,joinbrands.com
 DOMAIN-SUFFIX,chintao.cn
 
-# ===========================================================
 # 软件下载 / 应用商店
-# ===========================================================
 DOMAIN-SUFFIX,apkmirror.com
 DOMAIN-SUFFIX,uptodown.com
 
-# ===========================================================
 # 网络工具与服务
-# ===========================================================
 DOMAIN-SUFFIX,lanhai.in

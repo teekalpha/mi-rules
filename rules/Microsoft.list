@@ -1,16 +1,18 @@
-# Microsoft Services
+# 微软服务
 
-# ===========================================================
-# 微软核心服务
-# ===========================================================
+# 主站、登录与网络检测
 DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,microsoftonline.com
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,msauthimages.net
+DOMAIN-SUFFIX,msftconnecttest.com
+
+# Microsoft 365
 DOMAIN-SUFFIX,office.com
 DOMAIN-SUFFIX,office365.com
 DOMAIN-SUFFIX,onedrive.com
 DOMAIN-SUFFIX,sharepoint.com
-DOMAIN-SUFFIX,live.com
 DOMAIN-SUFFIX,outlook.com
+
+# Azure
 DOMAIN-SUFFIX,azure.com
-DOMAIN-SUFFIX,msftconnecttest.com
-DOMAIN-SUFFIX,msauthimages.net

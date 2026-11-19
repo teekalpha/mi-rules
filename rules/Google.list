@@ -1,40 +1,44 @@
-# Google Services
+# Google 服务
 
-# ===========================================================
-# Google 核心
-# ===========================================================
+# 主站、API 与账号相关服务
 DOMAIN-SUFFIX,google.com
-# Google 自有品牌后缀，代替会误匹配任意域名的 goog 关键词
 DOMAIN-SUFFIX,google
 DOMAIN-SUFFIX,goog
 DOMAIN-SUFFIX,google.dev
+DOMAIN-SUFFIX,google.co.jp
 DOMAIN-SUFFIX,withgoogle.com
-DOMAIN-SUFFIX,googlesource.com
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,gstatic.com
-DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,ggpht.com
-DOMAIN-SUFFIX,googlevideo.com
-DOMAIN-SUFFIX,ytimg.com
-DOMAIN-SUFFIX,googletagmanager.com
-DOMAIN-SUFFIX,googlefonts.com
-DOMAIN-SUFFIX,google-analytics.com
-DOMAIN-SUFFIX,app-measurement.com
-DOMAIN-SUFFIX,chromium.org
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,recaptcha.net
+
+# 短链
+DOMAIN,c.gle
+DOMAIN-SUFFIX,goo.gle
+DOMAIN-SUFFIX,goo.gl
+
+# Android / Google Play 和下载 CDN
+DOMAIN-SUFFIX,android.com
+DOMAIN-SUFFIX,googleplay.com
+DOMAIN-SUFFIX,googlecnapps.cn
+DOMAIN-SUFFIX,googleapis.cn
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 DOMAIN-SUFFIX,gvt0.com
 DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,gvt2.com
 DOMAIN-SUFFIX,gvt3.com
-DOMAIN-SUFFIX,android.com
+DOMAIN-SUFFIX,gvt5.com
+DOMAIN-SUFFIX,gvt6.com
+DOMAIN-SUFFIX,gvt7.com
+DOMAIN-SUFFIX,gvt9.com
 
-# Google Play：商店 / 调度 API 与下载 CDN 保持同组，后缀覆盖动态下载主机
-# xn--ngstr-lra8j.com 是真实的 Google 下载域名；原 lra8z 拼写无注册记录
-DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-DOMAIN-SUFFIX,googleplay.com
-DOMAIN-SUFFIX,googlecnapps.cn
-DOMAIN-SUFFIX,googleapis.cn
-# play-fe / play-lh / android.apis 等主机已由上面的 Google 后缀规则覆盖
+# Google Cloud
+DOMAIN-SUFFIX,appspot.com
+DOMAIN-SUFFIX,gcr.io
+DOMAIN-SUFFIX,pkg.dev
+DOMAIN-SUFFIX,run.app
 
 # Firebase
 DOMAIN-SUFFIX,firebase.com
@@ -42,41 +46,27 @@ DOMAIN-SUFFIX,firebaseio.com
 DOMAIN-SUFFIX,firebaseapp.com
 DOMAIN-SUFFIX,firebase.io
 
-# App Engine
-DOMAIN-SUFFIX,appspot.com
-DOMAIN-SUFFIX,gcr.io
-DOMAIN-SUFFIX,pkg.dev
-
-# 验证码 / 其他辅助
-DOMAIN-SUFFIX,recaptcha.net
+# Google Analytics 与应用统计
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,app-measurement.net
 
-# 其它 GVT 变体
-DOMAIN-SUFFIX,gvt5.com
-DOMAIN-SUFFIX,gvt6.com
-DOMAIN-SUFFIX,gvt7.com
-DOMAIN-SUFFIX,gvt9.com
-
-# Google 短链 / 其他 TLD / 相关服务
-DOMAIN,c.gle
-DOMAIN-SUFFIX,goo.gle
-DOMAIN-SUFFIX,goo.gl
-DOMAIN-SUFFIX,google.co.jp
-DOMAIN-SUFFIX,run.app
-DOMAIN-SUFFIX,antigravity-unleash.goog
+# Gemini / AI Studio / DeepMind / Antigravity
 DOMAIN-SUFFIX,ai.studio
 DOMAIN-SUFFIX,deepmind.com
+PROCESS-NAME,Antigravity Helper
+PROCESS-NAME,language_server_macos_arm
 
-# ===========================================================
+# 开发工具与字体
+DOMAIN-SUFFIX,chromium.org
+DOMAIN-SUFFIX,googlesource.com
+DOMAIN-SUFFIX,googlefonts.com
+
 # YouTube
-# ===========================================================
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,youtube-nocookie.com
-
-# ===========================================================
-# Process Names（Clash Meta 支持）
-# ===========================================================
-PROCESS-NAME,Antigravity Helper
-PROCESS-NAME,language_server_macos_arm
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,ytimg.com

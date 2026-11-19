@@ -1,22 +1,8 @@
-# Meta services: use one selected exit for shared sign-in, apps and CDN traffic.
+# Meta 服务
 
-# Android apps (also catches connections to IP addresses without a hostname)
+# Meta 账号 / Muse / Meta AI
 PROCESS-NAME,com.facebook.aura
 PROCESS-NAME,com.facebook.stella
-PROCESS-NAME,com.facebook.katana
-PROCESS-NAME,com.facebook.lite
-PROCESS-NAME,com.facebook.orca
-PROCESS-NAME,com.facebook.pages.app
-PROCESS-NAME,com.facebook.adsmanager
-PROCESS-NAME,com.instagram.android
-PROCESS-NAME,com.instagram.lite
-PROCESS-NAME,com.instagram.barcelona
-PROCESS-NAME,com.instagram.basel
-PROCESS-NAME,com.whatsapp
-PROCESS-NAME,com.whatsapp.w4b
-PROCESS-NAME,com.oculus.twilight
-
-# Meta accounts, Muse and Meta AI
 DOMAIN-SUFFIX,meta.com
 DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,muse.ai
@@ -24,7 +10,12 @@ DOMAIN-SUFFIX,metaaivm.com
 DOMAIN-SUFFIX,atmeta.com
 DOMAIN-SUFFIX,llama.com
 
-# Facebook and Messenger
+# Facebook / Messenger
+PROCESS-NAME,com.facebook.katana
+PROCESS-NAME,com.facebook.lite
+PROCESS-NAME,com.facebook.orca
+PROCESS-NAME,com.facebook.pages.app
+PROCESS-NAME,com.facebook.adsmanager
 DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,facebook.net
 DOMAIN-SUFFIX,facebookmail.com
@@ -44,7 +35,11 @@ DOMAIN-SUFFIX,messenger.com
 DOMAIN-SUFFIX,m.me
 DOMAIN-SUFFIX,tfbnw.net
 
-# Instagram and Threads
+# Instagram / Threads
+PROCESS-NAME,com.instagram.android
+PROCESS-NAME,com.instagram.lite
+PROCESS-NAME,com.instagram.barcelona
+PROCESS-NAME,com.instagram.basel
 DOMAIN-SUFFIX,instagram.com
 DOMAIN-SUFFIX,cdninstagram.com
 DOMAIN-SUFFIX,igcdn.com
@@ -54,16 +49,19 @@ DOMAIN-SUFFIX,threads.com
 DOMAIN-SUFFIX,threads.net
 
 # WhatsApp
+PROCESS-NAME,com.whatsapp
+PROCESS-NAME,com.whatsapp.w4b
 DOMAIN-SUFFIX,wa.me
 DOMAIN-SUFFIX,whatsapp.biz
 DOMAIN-SUFFIX,whatsapp.com
 DOMAIN-SUFFIX,whatsapp.net
 
-# Meta Quest and Horizon
+# Meta Quest / Horizon
+PROCESS-NAME,com.oculus.twilight
 DOMAIN-SUFFIX,oculus.com
 DOMAIN-SUFFIX,oculuscdn.com
 DOMAIN-SUFFIX,oculusvr.com
 DOMAIN-SUFFIX,ocul.us
 
-# Meta-owned IP connections without a hostname (AS32934 in the Muse log)
+# 无域名的 Meta IP 连接
 IP-ASN,32934,no-resolve
