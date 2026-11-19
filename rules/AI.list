@@ -78,6 +78,8 @@ IP-CIDR,153.61.224.0/22,no-resolve
 IP-CIDR6,2607:6bc0::/48,no-resolve
 # 历史服务段仍由 Anthropic 公告，保留兼容；当前官方入站清单未列
 IP-CIDR,209.249.57.0/24,no-resolve
+# AS399358 公告的另一段 IPv6，保留原有覆盖
+IP-CIDR6,2607:6bc0:11::/48,no-resolve
 
 # ===========================================================
 # Grok / xAI
@@ -88,8 +90,9 @@ DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,grokusercontent.com
 DOMAIN-SUFFIX,grokipedia.com
 DOMAIN-SUFFIX,grokbot.com
-# Cursor 当前登录链路还使用此独立认证主机
+# Cursor 登录使用的独立认证主机
 DOMAIN,accounts.spacex.ai
+DOMAIN,accounts.spacexsi.com
 
 # ===========================================================
 # Manus

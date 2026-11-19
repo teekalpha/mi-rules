@@ -27,6 +27,11 @@ DOMAIN-SUFFIX,telesco.pe
 # DOMAIN-SUFFIX,discord.media
 # DOMAIN-SUFFIX,discordcdn.com
 DOMAIN-SUFFIX,signal.org
+DOMAIN-SUFFIX,signal.art
+DOMAIN-SUFFIX,signal.group
+DOMAIN-SUFFIX,signal.link
+DOMAIN-SUFFIX,signal.me
+DOMAIN-SUFFIX,signal.tube
 
 # ===========================================================
 # 平台与云服务 / AI平台
