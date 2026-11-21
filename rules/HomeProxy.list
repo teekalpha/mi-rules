@@ -14,6 +14,8 @@ DOMAIN-SUFFIX,reddituploads.com.cdn-cf.dropbox.com
 DOMAIN-SUFFIX,paypal.com
 DOMAIN-SUFFIX,paypalobjects.com
 DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,stripecdn.com
+DOMAIN-SUFFIX,stripe.network
 
 # VPS / 代理云服务 (反欺诈下单)
 DOMAIN-SUFFIX,bandwagonhost.com
@@ -22,3 +24,15 @@ DOMAIN-SUFFIX,justmysocks.net
 
 # 跨国电商与旅行 (防地址及关联风控)
 DOMAIN-SUFFIX,airbnb.com
+
+# Shopify 后台、托管店铺、Shop 与平台资源
+DOMAIN-SUFFIX,shopify.com
+DOMAIN-SUFFIX,myshopify.com
+DOMAIN-SUFFIX,shop.app
+DOMAIN-SUFFIX,shop.com
+DOMAIN-SUFFIX,shopifyapps.com
+DOMAIN-SUFFIX,shopifycdn.com
+DOMAIN-SUFFIX,shopifycloud.com
+DOMAIN-SUFFIX,shopifycs.com
+DOMAIN-SUFFIX,shopifysvc.com
+DOMAIN-SUFFIX,shopifyinc.com

@@ -1,5 +1,8 @@
 # 开发者服务
 
+# Shopify 开发者文档
+DOMAIN-SUFFIX,shopify.dev
+
 # Node.js / npm
 DOMAIN-SUFFIX,nodejs.org
 DOMAIN-SUFFIX,npmjs.com

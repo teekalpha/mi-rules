@@ -32,10 +32,14 @@ class RoutingTests(unittest.TestCase):
                             "productionresultssa180.blob.core.windows.net", "npmregistryv2prod.blob.core.windows.net",
                             "marketplace.visualstudio.com", "vscode.download.prss.microsoft.com",
                             "playwright.download.prss.microsoft.com", "a.gallerycdn.vsassets.io", "open-vsx.org",
-                            "cdn.jsdelivr.net", "static.crates.io", "download.jetbrains.com", "dropbox.com", "netflix.com"],
+                            "cdn.jsdelivr.net", "static.crates.io", "download.jetbrains.com", "dropbox.com", "netflix.com",
+                            "shopify.dev"],
+            "🏠 家宽节点": ["admin.shopify.com", "accounts.shopify.com", "cdn.shopify.com", "demo.myshopify.com",
+                         "extensions.shopifycdn.com", "shop.app", "shop.com", "js.stripe.com", "stripecdn.com", "stripe.network"],
             "Ⓜ️ 微软服务": ["office.com", "login.microsoftonline.com", "www.microsoft.com"],
             "🔵 Meta 服务": ["facebook.com", "instagram.com", "meta.ai"],
-            "🐟 规则之外": ["notgoogle.example", "google.com.example", "xn--ngstr-lra8z.com", "claude.code", "xai.com"],
+            "🐟 规则之外": ["notgoogle.example", "google.com.example", "xn--ngstr-lra8z.com", "claude.code", "xai.com",
+                         "notmyshopify.com", "admin.shopify.com.example"],
         }
         for policy, domains in cases.items():
             for domain in domains:
