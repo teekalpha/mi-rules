@@ -111,6 +111,14 @@ DOMAIN-SUFFIX,moomooapp.com
 DOMAIN-SUFFIX,moomooequity.com
 DOMAIN-SUFFIX,moomoobull.com
 DOMAIN-SUFFIX,moomootrustee.com
+# 富途 / moomoo 后端网段
+IP-CIDR,119.28.37.0/24,no-resolve
+IP-CIDR,43.153.233.0/24,no-resolve
+IP-CIDR,124.156.233.0/24,no-resolve
+IP-CIDR,170.106.49.0/24,no-resolve
+IP-CIDR,119.91.245.0/24,no-resolve
+IP-CIDR,43.153.191.0/24,no-resolve
+IP-CIDR,101.32.198.0/24,no-resolve
 
 # 老虎证券 / Tiger Brokers
 DOMAIN-SUFFIX,itiger.com

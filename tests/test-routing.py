@@ -58,6 +58,10 @@ class RoutingTests(unittest.TestCase):
                 self.assertEqual(checker.match_local(self.rules, domain=domain), "🐟 规则之外")
 
     def test_ip_ranges(self):
+        for ip in ["119.28.37.77", "43.153.233.212", "124.156.233.21", "170.106.49.68",
+                   "119.91.245.125", "43.153.191.154", "101.32.198.91"]:
+            with self.subTest(ip=ip):
+                self.assertEqual(checker.match_local(self.rules, ip=ip), "🇺🇳 国外网站")
         for ip in ["160.79.104.1", "153.61.227.254", "2607:6bc0::1", "209.249.57.1"]:
             with self.subTest(ip=ip):
                 self.assertEqual(checker.match_local(self.rules, ip=ip), "🤖 AI 服务")
