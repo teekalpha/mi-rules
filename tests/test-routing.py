@@ -37,7 +37,9 @@ class RoutingTests(unittest.TestCase):
                             "marketplace.visualstudio.com", "vscode.download.prss.microsoft.com",
                             "playwright.download.prss.microsoft.com", "a.gallerycdn.vsassets.io", "open-vsx.org",
                             "cdn.jsdelivr.net", "static.crates.io", "download.jetbrains.com", "dropbox.com", "netflix.com",
-                            "shopify.dev"],
+                            "shopify.dev", "www.futuhk.com", "api.moomoo.com", "sg.itiger.com",
+                            "a.tigerbrokers.net", "longbridge.com", "origin.longbridge.com", "longbridge.sg",
+                            "api.longbridge-inc.com"],
             "🏠 家宽节点": ["admin.shopify.com", "accounts.shopify.com", "cdn.shopify.com", "demo.myshopify.com",
                          "extensions.shopifycdn.com", "shop.app", "shop.com", "js.stripe.com", "stripecdn.com", "stripe.network"],
             "Ⓜ️ 微软服务": ["office.com", "login.microsoftonline.com", "www.microsoft.com"],
@@ -49,6 +51,10 @@ class RoutingTests(unittest.TestCase):
             for domain in domains:
                 with self.subTest(domain=domain):
                     self.assertEqual(checker.match_local(self.rules, domain=domain), policy)
+
+        for domain in ["futu.com.example", "notmoomoo.com", "tigerbrokers.com.example", "longbridge.com.example"]:
+            with self.subTest(domain=domain):
+                self.assertEqual(checker.match_local(self.rules, domain=domain), "🐟 规则之外")
 
     def test_ip_ranges(self):
         for ip in ["160.79.104.1", "153.61.227.254", "2607:6bc0::1", "209.249.57.1"]:
