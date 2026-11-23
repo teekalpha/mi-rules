@@ -57,16 +57,37 @@ DOMAIN-SUFFIX,claude.new
 DOMAIN-SUFFIX,claude.site
 DOMAIN-SUFFIX,claudeacademy.com
 DOMAIN-SUFFIX,claudepages.dev
+DOMAIN-SUFFIX,claudestudio.com
+DOMAIN-SUFFIX,chatbotclaude.com
+DOMAIN-SUFFIX,ant.dev
+DOMAIN-SUFFIX,anthropic.team
+DOMAIN-SUFFIX,antspace.dev
 # 内容、MCP 与静态资源
 DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,claudemcpclient.com
 DOMAIN-SUFFIX,claudemcpcontent.com
 DOMAIN-SUFFIX,servd-anthropic-website.b-cdn.net
+DOMAIN-SUFFIX,anthropic-com.ghost.io
+DOMAIN-SUFFIX,anthropic.com.cdn.cloudflare.net
 # 遥测
 DOMAIN,cdn.usefathom.com
 DOMAIN,o1158394.ingest.us.sentry.io
+DOMAIN,us.sentry.io
 DOMAIN,http-intake.logs.us5.datadoghq.com
 DOMAIN,browser-intake-us5-datadoghq.com
+# 登录、风控与支付
+DOMAIN-SUFFIX,anthropic.auth0.com
+DOMAIN,fcmtoken.googleapis.com
+DOMAIN,r.stripe.com
+# Claude 使用的共享验证、客服与风控依赖
+DOMAIN-SUFFIX,hcaptcha.com
+DOMAIN-SUFFIX,withpersona.com
+DOMAIN-SUFFIX,yoti.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,intercomassets.com
+DOMAIN-SUFFIX,intercom-messenger.com
+DOMAIN-SUFFIX,siftscience.com
 # API / Console 官方入站地址
 IP-CIDR,153.61.224.0/22,no-resolve
 IP-CIDR,160.79.104.0/23,no-resolve

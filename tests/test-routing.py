@@ -17,7 +17,11 @@ class RoutingTests(unittest.TestCase):
         cases = {
             "🤖 AI 服务": ["chatgpt.com", "ws.chatgpt.com", "cdn.openaimerge.com", "openaiassets.blob.core.windows.net",
                         "images.workoscdn.com", "chatgpt.livekit.cloud", "crixet.com", "claudeacademy.com", "api.anthropic.com", "platform.claude.com",
-                        "random.claudemcpcontent.com", "random.claudemcpclient.com", "a.claudeusercontent.com",
+                        "random.claudemcpcontent.com", "random.claudemcpclient.com", "a.claudeusercontent.com", "studio.claudestudio.com",
+                        "docs.anthropic.team", "api.ant.dev", "auth.anthropic.auth0.com",
+                        "fcmtoken.googleapis.com", "r.stripe.com", "us.sentry.io", "cdn.anthropic.com.cdn.cloudflare.net",
+                        "js.hcaptcha.com", "verify.withpersona.com", "api.yoti.com", "support.intercom.io",
+                        "assets.intercomassets.com", "api.siftscience.com",
                         "downloads.cursor-cdn.com", "a.b.cursorvm.com", "api.cursorapi.com",
                         "copilot-proxy.githubusercontent.com", "api.individual.githubcopilot.com",
                         "production-copilot-host.webpubsub.azure.com", "api.codeiumdata.com", "api.devin.ai",
@@ -53,6 +57,9 @@ class RoutingTests(unittest.TestCase):
         self.assertEqual(checker.match_local(self.rules, ip="2607:6bc0:1::1"), "🐟 规则之外")
         # 私网优先，不因域名是 AI 服务就把局域网地址发送到境外。
         self.assertEqual(checker.match_local(self.rules, domain="api.openai.com", ip="192.168.1.1"), "DIRECT")
+        for ip in ["::1", "fc00::1", "fe80::1"]:
+            with self.subTest(ip=ip):
+                self.assertEqual(checker.match_local(self.rules, ip=ip), "DIRECT")
 
     def test_no_unsupported_tiktok_geoip(self):
         self.assertNotIn(["GEOIP", "tiktok", "no-resolve"], [parts for parts, _, _ in self.rules])

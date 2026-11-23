@@ -52,8 +52,6 @@ DOMAIN-SUFFIX,plot.ly
 # 监控、分析与客服
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,amplitude.com
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,launchdarkly.com
 
 # 新闻媒体
